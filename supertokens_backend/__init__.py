@@ -2,7 +2,7 @@ from supertokens_python import init, InputAppInfo, SupertokensConfig
 from supertokens_python.recipe import emailpassword, session
 from supertokens_python.recipe.thirdparty.provider import ProviderInput, ProviderConfig, ProviderClientConfig
 from supertokens_python.recipe import thirdpartyemailpassword
-
+from supertokens_python.recipe import dashboard
 init(
     app_info=InputAppInfo(
         app_name="goom",
@@ -35,7 +35,8 @@ init(
                     ),
                 ),
             ]
-        )
+        ),
+        dashboard.init(),
     ],
     mode='asgi' # use wsgi if you are running django server in sync mode
 )
