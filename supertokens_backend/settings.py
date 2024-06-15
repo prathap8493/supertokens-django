@@ -29,12 +29,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ORIGIN_WHITELIST = [
-    "http://locahost:3000",
-    "https://test.chatwithpdf.ai",
-    "https://chatwithpdf.ai",
-    "http://20.189.119.74:3000"
-]
+# CORS_ORIGIN_WHITELIST = [
+#     "http://locahost:3000",
+#     "https://test.chatwithpdf.ai",
+#     "https://chatwithpdf.ai"
+# ]
 
 # CORS_ALLOWED_ORIGINS = [
 #     "http://locahost:3000",
